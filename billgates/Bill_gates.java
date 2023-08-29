@@ -6,11 +6,9 @@ public class Bill_gates {
         System.out.println("Hi, what is your name?..: ");
 
         String first_input = scanner.nextLine();
-        System.out.println(first_input);
 
         System.out.println("What are you like?");
         String second_input = scanner.nextLine();
-        System.out.println(second_input);
 
         System.out.print(first_input + " is " + " a " + second_input + " person");
         System.out.println();
