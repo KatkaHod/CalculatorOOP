@@ -9,7 +9,8 @@ public class library {
         String firstbook = first_scanner.nextLine(); //print the name
         System.out.println("date of release: ... ");
         int firstbook_release = Integer.parseInt(first_scanner.nextLine()); //print the date, parse from string to int
-        System.out.println("The first name of the first book is " + firstbook + " and the date of release is: " + firstbook_release);
+        System.out.println("The first name of the first book is " + firstbook + " and the date of release is a year: " + firstbook_release);
+        //String firstlenght = firstbook.length();
 
 
         Scanner second_scanner = new Scanner(System.in,"Windows-1250"); //second scanner
@@ -17,7 +18,13 @@ public class library {
         String secondbook = second_scanner.nextLine(); //print the name of second books
         System.out.println("date of release: ... ");   //print the second date, parse from string to int
         int secondbook_release = Integer.parseInt(second_scanner.nextLine()); //print the date of the secondbook, parse from string to int
-        System.out.println("The second name of the second book is " + secondbook + " and the date of release is: " + secondbook_release);
+        System.out.println("The second name of the second book is " + secondbook + " and the date of release is a year: " + secondbook_release);
+
+
+        int age_difference = firstbook_release - secondbook_release;
+        System.out.println("The difference of year between release ");
+
+
 
 
 
