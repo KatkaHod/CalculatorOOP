@@ -34,6 +34,21 @@ public class Stringmethods_ {
         input3 = input3.toUpperCase();
         System.out.println(input3);
 
+        //int rozdil = delsiSlovo.length() - kratsiSlovo.length();
+        //        System.out.printf("Slova se liší délkou o %d znaků", rozdil);
+
+
+        //Scanner scanner = new Scanner(System.in, "Windows-1250");
+        //System.out.println("Zadejte delší slovo: ");
+        //String delsiSlovo = scanner.nextLine().trim();
+
+        //System.out.println("Zadejte kratší slovo: ");
+        //String kratsiSlovo = scanner.nextLine().trim();
+
+        //String KratsiSlovo = kratsiSlovo.lenght();
+
+        //int rozdil = delsiSlovo.length() - kratsiSlovo.length();
+        //System.out.printf("Slova se liší délkou o %d znaků", rozdil);
 
     }
 }
