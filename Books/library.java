@@ -20,9 +20,19 @@ public class library {
         int secondbook_release = Integer.parseInt(second_scanner.nextLine()); //print the date of the secondbook, parse from string to int
         System.out.println("The second name of the second book is " + secondbook + " and the date of release is a year: " + secondbook_release);
 
+        int diffyear = firstbook_release - secondbook_release; //a new variable for the difference between release the books
+        int diffyearlater = secondbook_release - firstbook_release;
 
-        int age_difference = firstbook_release - secondbook_release;
-        System.out.println("The difference of year between release ");
+        if(firstbook_release < secondbook_release){
+        System.out.println("The book " + firstbook + " was released " + (diffyear) + " year/s sooner than the book: " + secondbook);
+        }
+        else {
+            System.out.println("The book " + secondbook +  "was released" + (diffyearlater) + "year/s sooner than the: " + firstbook );
+        }
+
+
+
+
 
 
 
