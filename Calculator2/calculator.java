@@ -36,13 +36,11 @@ public class calculator {
                 result = a * b;
                 break;
         }
-if ((options >= 1) && (options <= 100)) {
     System.out.println("The result is: " + result);
 }
-else {
-    System.out.println("Invalid input, try again ");
+
 }
 
 
-        }
-}
+
+
