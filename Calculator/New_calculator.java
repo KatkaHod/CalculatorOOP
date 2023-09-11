@@ -26,8 +26,6 @@ public class New_calculator {
 
         System.out.println("The result of division is.." + division);
 
-        System.out.println("The sum of all the result is..." + sum + minus + multiplication + division);
-
         System.out.println("Thank you for using the new calculator");
 
     }
