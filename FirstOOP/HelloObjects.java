@@ -1,4 +1,4 @@
-package First_OOP;
+package FirstOOP;
 
 public class HelloObjects {
 }
