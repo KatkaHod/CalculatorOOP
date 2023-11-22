@@ -1,6 +1,6 @@
-package Calculator2;
+package Calculator;
 import java.util.Scanner;
-public class calculator {
+public class FirstCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in,"Windows-1250");
 

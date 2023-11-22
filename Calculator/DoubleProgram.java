@@ -1,6 +1,6 @@
-package src1;
+package Calculator;
 import java.util.Scanner;
-public class Doubleprogram {
+public class DoubleProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in,"Windows-1250");
         System.out.println("Enter a number:...");

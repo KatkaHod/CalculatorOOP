@@ -1,4 +1,4 @@
-package src;
+package UserInput;
 import java.util.Scanner;
 
 public class parrotcode {

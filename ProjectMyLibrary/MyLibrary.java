@@ -1,12 +1,12 @@
-package Books;
+package ProjectMyLibrary;
 import java.util.Scanner;
 
-public class library {
+public class MyLibrary {
     public static void main(String[] args) {
 
         Scanner first_scanner = new Scanner(System.in,"Windows-1250"); //first scanner
         System.out.println("Write name of the first book: ... ");
-        String firstbook = first_scanner.nextLine(); //print the name
+        String firstbook = first_scanner.nextLine().trim().toLowerCase(); //print the name
         System.out.println("date of release: ... ");
         int firstbook_release = Integer.parseInt(first_scanner.nextLine()); //print the date, parse from string to int
         System.out.println("The name of the first book is " + firstbook + " and the date of release is a year: " + firstbook_release);

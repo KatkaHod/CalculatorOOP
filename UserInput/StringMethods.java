@@ -1,6 +1,6 @@
-package Stringmethods;
+package UserInput;
 
-public class Stringmethods_ {
+public class StringMethods {
     public static void main(String[] args) {
         String input = "Gepiuolonikeeaab";
         System.out.println(input.startsWith("Gep")); //is it Gep in the beginning? True

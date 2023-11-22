@@ -1,6 +1,6 @@
-package billgates;
+package UserInput;
 import java.util.Scanner;
-public class Bill_gates {
+public class InputScannerNextLine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in, "Windows-1250");
         System.out.println("Hi, what is your name?..: ");

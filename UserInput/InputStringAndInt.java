@@ -1,8 +1,8 @@
-package Age;
+package UserInput;
 
 import java.util.Scanner;
 
-public class Age_ {
+public class InputStringAndInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in, "Windows-1250");
         //do not forget to add always scanner and also import java.util.Scanner!!!

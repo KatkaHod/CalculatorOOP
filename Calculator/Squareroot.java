@@ -1,8 +1,8 @@
-package squareroot;
+package Calculator;
 
 import java.util.Scanner;
 
-public class squareroot_ {
+public class Squareroot {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in, "Windows-1250");
         System.out.println("Write a number to exponetiate: ");
