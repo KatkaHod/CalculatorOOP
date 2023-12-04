@@ -1,9 +1,10 @@
 package FirstOOP;
 
 public class Greeting {
-    public static void Greet(String name) { // Public is access modifier, void method does not return any value
-        System.out.println("Hi user " + name);
 
+    public String text;//Always add under the new class
+    public static void Greet(String name) {
+        System.out.printf("Hi user %s%n", name);
     }
 
 }
