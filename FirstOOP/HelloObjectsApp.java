@@ -1,8 +1,7 @@
 package FirstOOP;
-import java.util.Scanner;
 
-public class HelloObjects {
-    public HelloObjects() {
+public class HelloObjectsApp {
+    public HelloObjectsApp() {
     }
 
     public static void main(String[] args) {// always write main method
