@@ -14,6 +14,7 @@ public class HelloObjectsApp {
         greeting.text = "Welcome";
         System.out.println(greeting.Greet("Lukas"));
         System.out.println(greeting.Greet("Laura"));
+        //done
 
     }
 }
