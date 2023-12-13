@@ -7,6 +7,10 @@ package Calculator;
  *  */
 
 public class NCArOperations {
+    /** The class contains methods of arithmetic operators
+     * a = first input from the user
+     * b = second input from the user
+     */
 
     //Variables of the first/second input (number) from the user
     public double a;

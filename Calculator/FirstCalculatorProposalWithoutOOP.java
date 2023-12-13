@@ -1,6 +1,10 @@
 package Calculator;
 import java.util.Scanner;
-public class FirstCalculator {
+
+/**
+ * Proposal of calculator without OOP
+ */
+public class FirstCalculatorProposalWithoutOOP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in,"Windows-1250");
 

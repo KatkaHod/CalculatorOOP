@@ -11,6 +11,6 @@ public class Greeting {
      */
     public String Greet(String name) {
         return String.format("%s %s",text, name); //return - exist the method and return value
-    }
+    } //This is the one method created
 
 }
