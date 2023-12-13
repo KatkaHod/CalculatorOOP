@@ -35,6 +35,8 @@ public class NCArOperations {
     public double division()
     {
         return a / b;
+
+        }
     }
 
 
@@ -45,4 +47,5 @@ public class NCArOperations {
 
 
 
-}
+
+

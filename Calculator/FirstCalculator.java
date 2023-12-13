@@ -34,7 +34,8 @@ public class FirstCalculator {
             case 4:
                 result = a * b;
                 break;
-                         }
+        }
+
         if ((options > 0) && (options < 5)) {
             System.out.println("Result: " + result);
         } else {
