@@ -45,8 +45,7 @@ public class FirstCalculator {
             con = scanner.nextLine();
         }
         System.out.println("Thanks for using this calculator!");
-    }
-
+    }//End of the public main
 }
 
 
