@@ -13,7 +13,8 @@ public class NumberCruncherApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Instance of Class - The purpose of this is to call the calculation methods
+        //Creating an instance - it means creating an object from the Class NCArOperations
+        //The creation of a realized instance is called instantiation.
         NCArOperations ncaroperations = new NCArOperations();
 
         //Greeting of the user
