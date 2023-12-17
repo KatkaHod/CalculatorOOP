@@ -14,6 +14,7 @@ public class NumberCruncherApp {
         Scanner scanner = new Scanner(System.in);
 
         //Creating an instance - it means creating an object from the Class NCArOperations
+        //Object is instance of Class
         //The creation of a realized instance is called instantiation.
         NCArOperations ncaroperations = new NCArOperations();
 
